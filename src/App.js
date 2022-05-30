@@ -29,7 +29,7 @@ const App = () => {
           <button className="btn btn-success" type="button" id="button-addon2" onClick={()=>send()}>Analyze</button>
         </div>
         <div className='mt-5'>
-          {loading?<h3>loading...</h3>:<Table data={data}/>}
+          {loading?<h3>loading...</h3>:data&&<Table data={data}/>}
         </div>
       </div>
     </div>
