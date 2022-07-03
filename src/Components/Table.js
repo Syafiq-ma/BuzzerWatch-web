@@ -14,7 +14,7 @@ const Table = (props) => {
             <tbody>
                 {props.data.map((data,i)=>(
                     <tr key={i}>
-                        <td>{data.raw}</td>
+                        <td style={{textAlign:'left'}}>{data.raw}</td>
                         <td>{data.sentiment}</td>
                         <td>{data.percentage}%</td>
                     </tr>
