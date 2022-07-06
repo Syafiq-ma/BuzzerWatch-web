@@ -7,9 +7,9 @@ import { PieChart } from 'react-minimal-pie-chart';
 const url = 'http://127.0.0.1:5000/twitter'
 
 const options = [
-    { title: 'Netral', value: 0, color: '#E38627', percentage:0},
-    { title: 'Positif', value: 0, color: '#C13C37', percentage:0},
-    { title: 'Negatif', value: 0, color: '#6A2135', percentage:0},
+    { title: 'Netral', value: 0, color: '#2196f3', percentage:0},
+    { title: 'Positif', value: 0, color: '#4caf50', percentage:0},
+    { title: 'Negatif', value: 0, color: '#ffc107', percentage:0},
 ]
 
 const Hero = () => {
